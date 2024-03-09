@@ -25,7 +25,7 @@ $$a = \arcsin{\frac{v}{p}}$$
 
 The Unity function [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) will perform this calculation.
  
-This solves the simplest case, but in practice, the target is unlikely to be moving at exactly $\degree{90}$. However, in general, we can project the target's direction vector onto a vector at $\degree{90}$ and use the length of this projection as our value for $o$.
+This solves the simplest case, but in practice, the target is unlikely to be moving at exactly $90\degree$. However, in general, we can project the target's direction vector onto a vector at $90\degree$ and use the length of this projection as our value for $o$.
 $$\vec{V} = \text{target's movement vector}$$
 
 ![illustration of a tank aiming at a target moving right and forward](https://github.com/LSBUSGP/AimAhead/assets/3679392/a9734e7b-6c5c-4eed-b4ef-1d0d16adcdc1)
