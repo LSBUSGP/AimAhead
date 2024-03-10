@@ -2,6 +2,8 @@
 
 A computer controlled tank aiming at a target will always miss if its target is moving fast enough and its shots are not instantaneous. To hit a moving target, the tank needs to aim ahead. To calculate the aim ahead angle, we only need to know the target's velocity and the speed of our projectile.
 
+## The simplest case
+
 Let's start with the simplest case, where the target is directly ahead and moving to the right. This gives us the following right angled triangle:
 
 ![illustration of a tank aiming at a target ahead](https://github.com/LSBUSGP/AimAhead/assets/3679392/8c9e6151-04dc-4f80-b3d8-eb3ddea98beb)
@@ -23,14 +25,26 @@ and, as you can see, the time variables cancel out. What this tells us is that t
 Re-arranging this we can find the angle with:
 $$a = \arcsin{\frac{v}{p}}$$
 
-The Unity function [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) will perform this calculation.
+Note: if in calculating the value $\frac{o}{h}$ you end up with 1 or more, this means your projectile is not fast enough to hit the target. The $\arcsin$ function is undefined for values more than 1 or less than -1. The Unity function [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) will perform this calculation.
  
-This solves the simplest case, but in practice, the target is unlikely to be moving at exactly $90\degree$. However, in general, we can project the target's direction vector onto a vector at $90\degree$ and use the length of this projection as our value for $o$.
+This solves the simplest case, but in practice, the target is unlikely to be moving at exactly $90\degree$.
+
+## A more usual example
+
+In general, we can project the target's direction vector onto a vector at $90\degree$ and use the length of this projection as our value for $v$.
 $$\vec{V} = \text{target's movement vector}$$
 
-![illustration of a tank aiming at a target moving right and forward](https://github.com/LSBUSGP/AimAhead/assets/3679392/a9734e7b-6c5c-4eed-b4ef-1d0d16adcdc1)
+![illustration of a tank aiming at a target moving right and forward](https://github.com/LSBUSGP/AimAhead/assets/3679392/4a93d3fe-e27d-4fb4-b4e1-148382fa3868)
 
-If we can create this projection, then the solution is the same as the simple case above. The Unity function [Vector.Project](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Vector3.Project.html) will create such a projection.
+
+Note: in this illustration we still don't know $t$. But again we can find our ratio by cancelling out the $t$ values.
+
+To find the length of the target's movement vector projected onto our tank's right vector we can take the dot product of the vector $\vec{V}$ with a unit vector pointing to our tank's right $\vec{R}$.
+$$v = \vec{V}\cdot\vec{R}$$
+
+With this new value for $v$ we can use the same trick as above to calculate the angle.
+
+## What if we aren't pointing at the target?
 
 If the target is not directly ahead, the we can rotate our tank until it is. And again, the solution is the same as above.
 
@@ -39,10 +53,9 @@ If the target is not directly ahead, the we can rotate our tank until it is. And
 The steps for calculating the aim ahead are therefore:
 
 - turn the tank to face the target
-- project the target's movement vector onto the tank's right vector
+- find the dot product of the target's movement vector with our tank's right unit vector
 - use [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) to calculate the relative angle
 - rotate the turret by this amount
 - fire!
 
-Note: if in calculating the value $\frac{o}{h}$ you end up with 1 or more, this means your projectile is not fast enough to hit the target. If you try to pass more than 1 or less than -1 to the [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) function, you will get an exception.
-Also note: the value returned by the [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) is the angle in radians. You can use [Mathf.Rad2Deg](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Rad2Deg.html) to convert it.
+Note: the value returned by the [Mathf.Asin](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Asin.html) is the angle in radians. You can use [Mathf.Rad2Deg](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Mathf.Rad2Deg.html) to convert it.
