@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="1176.3226"
-     inkscape:cy="424.26407"
+     inkscape:zoom="0.7"
+     inkscape:cx="1175"
+     inkscape:cy="424.28572"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,6 +70,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10233-8-9-1"
+       width="18.174328"
+       height="5.6126571"
+       x="-190.2747"
+       y="309.80066"
+       ry="0"
+       transform="rotate(-90)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -284,18 +293,9 @@
        id="rect10235-0-3"
        width="16.570711"
        height="2.6726952"
-       x="102.9076"
-       y="334.30353"
-       transform="rotate(-41.973214)" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect10233-8-9-1"
-       width="18.174328"
-       height="5.6126571"
-       x="-190.2747"
-       y="309.80066"
-       ry="0"
-       transform="rotate(-90)" />
+       x="62.003033"
+       y="344.44922"
+       transform="rotate(-48.844561)" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect10233-8-4-1-2"
@@ -307,13 +307,13 @@
        transform="rotate(-90)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 303.31938,89.238765 59.26572,34.879145 -59.05991,54.37008 z"
+       d="m 360.71422,109.41809 -57.18903,69.0699 -0.20581,-89.249225 33.07331,19.377515"
        id="path10315-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 304.12119,150.70539 c 8.14949,-0.13335 17.9909,10.19423 17.9909,10.19423"
+       d="m 304.12119,150.70539 c 8.14949,-0.13335 15.58547,8.32334 15.58547,8.32334"
        id="path12059-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -331,51 +331,62 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="321.23102"
-       y="121.54807"
+       x="326.30914"
+       y="119.14265"
        id="text12067-0"><tspan
          sodipodi:role="line"
          id="tspan12065-3"
-         x="321.23102"
-         y="121.54807"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">o</tspan></text>
+         x="326.30914"
+         y="119.14265"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">tv</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="338.13712"
-       y="157.79849"
+       x="335.73169"
+       y="150.04768"
        id="text12071-3"><tspan
          sodipodi:role="line"
          id="tspan12069-1"
-         x="338.13712"
-         y="157.79849"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">h</tspan></text>
+         x="335.73169"
+         y="150.04768"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">tp</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 362.47916,123.97619 -58.58631,0"
+       d="M 361.41008,108.74183 H 302.82377"
        id="path2"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="334.55713"
-       y="105.00056"
+       x="323.33182"
+       y="99.387894"
        id="text12067-0-3"><tspan
          sodipodi:role="line"
          id="tspan12065-3-6"
-         x="334.55713"
-         y="105.00056"
+         x="323.33182"
+         y="99.387894"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">V</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="335.15601"
-       y="97.018829"
+       x="323.93069"
+       y="91.406166"
        id="text2"><tspan
          sodipodi:role="line"
          id="tspan2"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="335.15601"
-         y="97.018829">→</tspan></text>
+         x="323.93069"
+         y="91.406166">→</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="313.94751"
+       y="106.90223"
+       id="text12067-0-6"><tspan
+         sodipodi:role="line"
+         id="tspan12065-3-7"
+         x="313.94751"
+         y="106.90223"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:NewComputerModern10;-inkscape-font-specification:'NewComputerModern10, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">v</tspan></text>
   </g>
 </svg>
