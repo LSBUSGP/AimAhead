@@ -2,6 +2,8 @@
 
 A computer controlled tank aiming at a target will always miss if its target is moving fast enough and its shots are not instantaneous. To hit a moving target, the tank needs to aim ahead. To calculate the aim ahead angle, we only need to know the target's velocity and the speed of our projectile.
 
+https://github.com/user-attachments/assets/951ff037-f6bb-4572-b301-aad8ee638167
+
 ## The simplest case
 
 Let's start with the simplest case, where the target is directly ahead and moving to the right. This gives us the following right angled triangle:
